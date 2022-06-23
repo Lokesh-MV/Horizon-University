@@ -1,0 +1,413 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+.landing-page{
+    background-image:linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.5)),url(images/banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    opacity: 0.8;
+}
+/* margin-styling section */
+.nav-list{
+    margin-right: 4rem;
+}
+.navbar{
+    z-index: 10;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+.nav-link{
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.dropdown-item{
+    color: #fff;
+}
+.dropdown-menu{
+    background: rgba(0,0,0,0.5);
+}
+.dropdown-item:hover{
+    background-color: #F5F5F5;
+}
+
+/* Intro section */
+#welcome{
+    font-size:550%;
+    font-family: 'Staatliches', cursive;
+    color: whitesmoke;
+}
+.intro{
+    text-align: center;
+    padding:1rem;
+    border-radius: 1rem;
+    margin: 6rem auto 0;
+}
+#welcome-para{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    word-spacing: 0.2rem;
+    font-weight: 600;
+    width: 55%;
+    text-align: center;
+    margin-left: 23%;
+}
+
+/* Academics section */
+
+#Academics{
+    padding: 4% 4% 5%;
+    text-align: center;
+}
+.edu-img{
+    width :90%;
+    height:70%;
+}
+@media only screen and (max-width: 600px){
+    .edu-img{
+        height: 60%;
+    }
+}
+.edu-head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:160%;
+    margin:0;
+}
+.education{
+    padding: 2%;
+}
+.edu-para{
+    font-size: 120%;
+    color: #8f8f8f;
+    margin:0;
+}
+.aca{
+    text-align: center;
+    padding-top: 2%;
+}
+.aca h2{
+    font-size: 3rem;
+}
+.aca p{
+    font-size: 1.5rem;
+}
+.edu-btn{
+    margin-top: 0; 
+}
+/* Login section */
+#login{
+    padding: 7% 8% 8%;
+}
+input[type="email"], input[type="password"], input[type="text"]{
+    width: 75%;
+}
+#login-img{
+    width: 98%;
+    height: 70%;
+}
+.form-control:focus{
+    border-color: #2a2a2a;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,2px 2px 8px rgba(0,0,0,0.1);
+}
+.login-btn{
+    margin-top:1rem;
+}
+.login-help{
+    margin-top: 3.5rem;
+}
+.login-help a{
+    text-decoration: none;
+}
+.login-help a:hover{
+    color: black;
+}
+#msg-link{
+    padding:0.35rem;
+}
+#login-div{
+    text-align: center;
+}
+#login-head{
+    font-size:4rem
+}
+#login-para{
+    color: #8f8f8f;
+    font-size: 1.4rem;
+}
+.pass a{
+    text-decoration: none;
+}
+.pass a:hover{
+    color:black;
+}
+/* testimonials section */
+.test-box{
+    width: 100%;
+
+    background-color:#F2F2F2;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .test-box h4{
+        font-size:2px;
+    }
+}
+.carousel-item{
+    padding:6% 12%;
+}
+.testimonial-img{
+    width: 8%;
+    border-radius: 100%;
+}
+.test-box h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+    margin: 0; 
+}
+/* press section */
+#press{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.press-logo{
+    width: 18%;
+    padding: 2%;
+}
+
+
+/* contact section */
+#contact-img{
+    width: 90%;
+}
+#contact{
+    padding: 8% 8% 4%;
+    height: 97vh;
+}
+#firstname, #lastname{
+    width:100%;
+}
+.contact-email{
+    padding-top: 4%;
+    padding-bottom:4%;
+}
+.Message{
+    padding-top:5% ;
+}
+.contact-btn{
+    margin-top: 1.5rem;
+}
+.form{
+    width: 60%;
+    float:left;
+}
+.con-img{
+    width: 40%;
+    float: right;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+    #contact-img{
+        display: none;
+    }
+}
+/* footer section */
+#footer{
+    height:45vh;
+    background-color:#efeded;
+    padding: 2% 10%;
+}
+.foot-class{
+    text-align: center  ;
+}
+.link-icon{
+    color: #2a2a2a;
+    margin: 2%;
+}
+.youtube-icon:hover{
+    color: rgb(212, 63, 63);
+}
+.google-icon:hover{
+    color:lightcoral;
+}
+.twitter-icon:hover{
+    color:rgb(67, 152, 204);
+}
+.linked-icon:hover{
+    color:rgb(20, 136, 182);
+}
+.facebook-icon:hover{
+    color:rgb(66, 66, 200);
+}
+.insta-icon:hover{
+    color:rgb(225, 123, 140);
+}
+#touch-section a{
+    text-decoration: none;
+    color: black;
+}
+#touch-section a:hover{
+    text-decoration: underline;
+    color:#514e4e ;
+}
+.tel-icon, .mail-icon, .loc-icon{
+    color: black;
+    margin-right: 0.8rem;
+}
+.tel-icon:hover, .mail-icon:hover, .loc-icon:hover{
+    color: #514e4e;
+}
+#touch-section{
+    text-align: center;
+}
+.learn-section{
+    text-align: center;
+}
+.learn-section a{
+    text-decoration: none;
+    color: black;
+}
+.learn-section a:hover{
+    color: #514e4e;
+}
+.learn-icon{
+    color: black;
+    margin-right:0.5rem;
+}
+.learn-icon:hover{
+    color: #514e4e;
+}
+#copyright{
+    text-align: center;
+    padding: 2%;
+}
+#extra-footsection{
+    padding:3%;
+}
+
+/* Alumini Section */
+.star{
+    color: coral;
+    padding: 1rem;
+}   
+#main{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 320%;
+    padding-top: 1rem;
+}
+.Alumini-div{
+    text-align: center;
+}
+#Alumini{
+    background-image: linear-gradient(120deg,#2c3e50,#bdc3c7);
+    padding: 2% 4%;
+}
+.card{
+    width:80%;
+    height:100%;
+    padding: 3%;
+}
+.alum-img{
+    width: 100%;
+    height: 45%;    
+}
+.card-text{
+    font-size: 1rem;
+}
+
+/* Research Section */
+.research-img{
+    width:95%;
+    height: 60%;
+}
+.research-head{
+    text-align: center;
+    font-size: 2rem;
+}
+.research-head h2{
+    font-size: 3rem;
+}
+#research{
+    padding:5%;
+}
+.research-box{
+    text-align: center;
+    padding: 3%;
+}
+.res-head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:190%;
+    margin:0;
+    padding: 0;
+}
+.res-para{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+    margin:0;
+}
+.row-2{
+    margin-top:3rem;
+}
+@media only screen and (max-width: 600px){
+    .research-img{
+        height:55%;
+    }
+}
+/* Admission Section */
+.adm-div{
+    text-align: center;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px){
+    #admissions img{
+        width:100%;
+        height:100%;
+    }
+}
+.adm-div2{
+    text-align: center;
+    padding:2%;
+}
+#adm-head{
+    font-size: 3rem;
+}
+#graduates-img{
+    width: 100%;
+    height: 75vh;
+}
+#admissions{
+    padding:2% 5%;
+}
+#adm-wel{
+    font-size: 1.5rem;
+}
+#adm-wel{
+    font-size: 2rem;
+}
+#adm-para{
+    font-size: 1.5rem;
+}
+#adm-btn{
+    border: 1px solid black;
+}
+#adm-btn:hover{
+    background-color: #2a2a2a;
+    color: white;
+}
+.cheeky{ 
+    text-align: center;
+    font-size: 2rem;
+    margin-top:10%;
+}
